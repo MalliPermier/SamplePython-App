@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_MalliPermier_SamplePython_App_1710325452317-pr-trigger-input-set
+  identifier: Build_MalliPermier_SamplePython_App_1710325452317prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Sample_Deploy
+  pipeline:
+    identifier: Build_MalliPermier_SamplePython_App_1710325452317
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
